@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="MoneyCalculator:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MoneyCalculator_jar</output-path>
+    <root id="archive" name="MoneyCalculator.jar">
+      <element id="module-output" name="kata7" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/decimal4j/decimal4j/1.0.3/decimal4j-1.0.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar" path-in-jar="/" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/currencies.tsv" />
+    </root>
+  </artifact>
+</component>
